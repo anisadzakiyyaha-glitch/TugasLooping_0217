@@ -23,7 +23,10 @@ bool cekFibonacci() {
     }
     return (b == angka || angka == 0);
 }
-void inputAngka() {}
+void inputAngka() {
+    cout << "Masukkan angka: ";
+    cin >> angka;
+}
 void tampilHasilPrima() {}
 void tampilHasilFibonacci() {}
 void tampilMenu() {}
