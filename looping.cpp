@@ -14,7 +14,9 @@ bool cekPrima() {
     }
     return true;
 }
-bool cekFibonacci() {}
+bool cekFibonacci() {
+    int a = 0, b = 1;
+}
 void inputAngka() {}
 void tampilHasilPrima() {}
 void tampilHasilFibonacci() {}
