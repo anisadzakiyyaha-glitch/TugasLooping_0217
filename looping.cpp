@@ -55,5 +55,8 @@ void tampilMenu() {
 }
 
 int main() {
+    while (true) {
+        tampilMenu();
+    }
     return 0;
 }
