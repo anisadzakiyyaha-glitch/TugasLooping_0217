@@ -16,6 +16,12 @@ bool cekPrima() {
 }
 bool cekFibonacci() {
     int a = 0, b = 1;
+    while (b < angka) {
+        int temp = b;
+        b = a + b;
+        a = temp;
+    }
+    return (b == angka || angka == 0);
 }
 void inputAngka() {}
 void tampilHasilPrima() {}
