@@ -72,7 +72,7 @@ int main() {
                 tampilHasilFibonacci();
                 break;
             case 0:
-                cout << "Program selesai." << endl;
+                cout << "Program selesai. Terima kasih!" << endl;
                 return 0;
             default:
                 cout << "Pilihan tidak valid, silakan coba lagi." << endl;
