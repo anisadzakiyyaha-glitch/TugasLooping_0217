@@ -8,7 +8,9 @@ using namespace std;
 int angka;
 int pilihan;
 
-bool cekPrima() {}
+bool cekPrima() {
+    if (angka < 2) return false;
+}
 bool cekFibonacci() {}
 void inputAngka() {}
 void tampilHasilPrima() {}
