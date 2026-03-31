@@ -27,7 +27,12 @@ void inputAngka() {
     cout << "Masukkan angka: ";
     cin >> angka;
 }
-void tampilHasilPrima() {}
+void tampilHasilPrima() {
+    if (cekPrima())
+        cout << angka << " adalah bilangan prima." << endl;
+    else
+        cout << angka << " bukan bilangan prima." << endl;
+}
 void tampilHasilFibonacci() {}
 void tampilMenu() {}
 
