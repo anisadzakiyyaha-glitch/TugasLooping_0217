@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
-// Variable global
+// variabel global
 int angka;
 int pilihan;
 
 bool cekPrima() {
     if (angka < 2) return false;
+    int i = 2;
+    while (i * i <= angka) {
+        if (angka % i == 0) return false;
+        i++;
+    }
+    return true;
 }
 bool cekFibonacci() {}
 void inputAngka() {}
