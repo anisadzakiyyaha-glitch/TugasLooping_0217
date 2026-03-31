@@ -58,6 +58,10 @@ int main() {
     while (true) {
         tampilMenu();
         switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilHasilPrima();
+                break;
         }
     }
     return 0;
