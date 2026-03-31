@@ -33,7 +33,18 @@ void tampilHasilPrima() {
     else
         cout << angka << " bukan bilangan prima." << endl;
 }
-void tampilHasilFibonacci() {}
+void tampilHasilFibonacci() {
+    if (cekFibonacci())
+        cout << angka << " adalah bilangan fibonacci." << endl;
+    else
+        cout << angka << " bukan bilangan fibonacci." << endl;
+}
+void tampilHasilFibonacci() {
+    if (cekFibonacci())
+        cout << angka << " adalah bilangan fibonacci." << endl;
+    else
+        cout << angka << " bukan bilangan fibonacci." << endl;
+}
 void tampilMenu() {}
 
 int main() {
